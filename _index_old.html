@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/css/custom.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Jujustu Kaisen</title>
+  </head>
+
+  <body>
+    <!--Dropdown Structures-->
+    <ul id="dropdown-grade" class="dropdown-content">
+      <li><a href="#">Special Grade Sorcerers</a></li>
+      <li><a href="#">First Grade Sorcerers</a></li>
+      <li><a href="#">Second Grade Sorcerers</a></li>
+      <li><a href="#">Third Grade Sorcerers</a></li>
+    </ul>
+    <ul id="dropdown-branch" class="dropdown-content">
+      <li><a href="#">Tokyo Branch</a></li>
+      <li><a href="#">Kyoto Branch</a></li>
+    </ul>
+    <ul id="dropdown-year" class="dropdown-content">
+      <li><a href="#">First Year Sorcerers</a></li>
+      <li><a href="#">Second Year Sorcerers</a></li>
+      <li><a href="#">Third Year Sorcerers</a></li>
+      <li><a href="#">Faculty Sorcerers</a></li>
+    </ul>
+    <ul id="dropdown-curses" class="dropdown-content">
+      <li><a href="#">Curse Users</a></li>
+      <li><a href="#">Cursed Spirits</a></li>
+    </ul>
+    <!-- Navigation-->
+      <nav class="nav-extended black">
+        <div class="nav-wrapper black">
+          <a href="index.html" class="brand-logo center">Jujustu Kaisen</a>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+        <!--TABS-->
+        <div class="nav-content hide-on-med-and-down" id="first-tabs">
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="#home-page">Home</a></li>
+                <li class="tab"><a href="#branches">Jujutsu High Branches</a></li>
+                <li class="tab"><a href="#grades">Sorcerer Grades</a></li>
+                <li class="tab"><a href="#curses">Curses</a></li>
+                <li class="tab"><a href="#nonsorcerers">Non-Sorcerers</a></li>
+                <li class="tab"><a href="#all">All Characters</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="nav-content hide-on-med-and-down" id="branches">
+          <div class="row">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="#">Kyoto Branch</a></li>
+              <li class="tab"><a href="#">Tokyo Branch</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-content hide-on-med-and-down" id="grades">
+          <div class="row">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="#">Kyoto Branch</a></li>
+              <li class="tab"><a href="#">Tokyo Branch</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-content hide-on-med-and-down" id="branches">
+          <div class="row">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="#">Kyoto Branch</a></li>
+              <li class="tab"><a href="#">Tokyo Branch</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-content hide-on-med-and-down" id="branches">
+          <div class="row">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="#">Kyoto Branch</a></li>
+              <li class="tab"><a href="#">Tokyo Branch</a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        
+      
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">All Characters</a></li>
+            <li><a href="#" class="dropdown-trigger" data-target="dropdown-branch">Jujutsu High Branches<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#" class="dropdown-trigger" data-target="dropdown-grade">Sorcerer Grades<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#" class="dropdown-trigger" data-target="dropdown-year">Jujutsu Students<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#" class="dropdown-trigger" data-target="dropdown-curses">Curses<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#">Non-Sorcerers</a></li>
+          </ul>
+
+        <br>
+
+       
+
+
+          <div class="col s12" id="home-page">
+            <div class="container front-page">
+            <img class="home" src="/img/main.gif">
+            </div>
+            <!--TO FIX: Add recap section, latest chapter, etc.-->
+            <div class="container">
+              <h1 class="white">Howdy!</h1>
+            </div>
+          </div>
+
+        
+          <!--
+          <div class="col s12" id="branches">
+            <br><br>
+              <div class="container options">
+                <a href="kyoto.html">
+                  <figure>
+                    <img src="/img/kyoto.png" alt="The Kyoto Jujustu High Students">
+                    <figcaption>Kyoto Branch</figcaption>
+                  </figure>
+                </a>
+                <a href="tokyo.html">
+                <figure>
+                  <img src="/img/tokyo.png" alt="The Tokyo Jujustu High Students">
+                  <figcaption>Tokyo Branch</figcaption>
+                </figure>
+              </a>
+              
+              </div>
+          </div>
+        -->
+
+          <!--TO FIX: Add images for First through Third Grades.-->
+          <div class="col s12" id="grades">
+            <br><br>
+            <div class="container options">  
+            <a href="specialgrade.html">
+                <figure>
+                  <img src="/img/special.jpg" class="special" alt="Special Grade Sorcerers">
+                  <figcaption>Special Grade Sorcerers</figcaption>
+                </figure>
+              </a>
+              <a href="firstgrade.html">
+                <figure>
+                  <img src="/img/special.jpg" class="special" alt="First Grade Sorcerers">
+                  <figcaption>First Grade Sorcerers</figcaption>
+                </figure>
+              </a>
+              <a href="specialgrade.html">
+                <figure>
+                  <img src="/img/special.jpg" class="special" alt="Second Grade Sorcerers">
+                  <figcaption>Second Grade Sorcerers</figcaption>
+                </figure>
+              </a>
+              <a href="specialgrade.html">
+                <figure>
+                  <img src="/img/special.jpg" class="special" alt="Third Grade Sorcerers">
+                  <figcaption>Third Grade Sorcerers</figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+
+          <!--TO FIX: Change size of cursed spirits image to 1200x1200px-->
+          <div class="col s12" id="curses">
+            <br><br>
+            <div class="container options">
+            <a href="curseusers.html">
+              <figure>
+                <img src="/img/curseusers.jpg" class="special" alt="Curse Users">
+                <figcaption>Curse Users</figcaption>
+              </figure>
+            </a>
+            <a href="cursedspirits.html">
+              <figure>
+                <img src="/img/cursedspirits.jpg" class="special" alt="Cursed Spirits">
+                <figcaption>Cursed Spirits</figcaption>
+              </figure>
+            </a>
+            </div>
+          </div>
+
+          <!--MAYBE: New Junpei picture-->          
+          <div class="col s12" id="nonsorcerers">
+            <div class="container options">
+            <a href="nonsorcerers.html">
+              <figure>
+                <img src="/img/nonsorcerers.jpg" class="special" alt="Non-sorcerers">
+                <figcaption>Non-sorcerers</figcaption>
+              </figure>
+            </a>
+            </div>
+          </div>
+
+          <!--TO FIX: Larger All Characters image-->
+          <div class="col s12" id="all">
+            <br><br>
+            <div class="container options">
+              <a href="allcharacters.html">
+                <figure>
+                  <img src="/img/all.jpg" class="special" alt="All Characters">
+                  <figcaption>All Characters</figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+
+          
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>
+  </body>
+</html>

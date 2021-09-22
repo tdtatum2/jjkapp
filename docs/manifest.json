@@ -1,0 +1,20 @@
+{
+    "name": "Jujutsu Kaisen Fan App",
+    "short_name": "Jujutsu Kaisen",
+    "description": "A collection of information on Jujutsu Kaisen manga/anime.",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#000000",
+    "theme_color": "#FFFFFF",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "./img/placeholder.png",
+            "type": "image/png",
+            "sizes": "400x400"
+        }
+    ]
+}
